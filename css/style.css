@@ -166,11 +166,24 @@ body {
     display: flex;
   }
 
-  article img {
+  article figure {
     width: 160px;
-    height: 120px;
-    float: right;
+    float: left;
     margin: 0 0.5em 0.5em 0;
+  }
+
+  article > img {
+    width: 160px;
+    float: left;
+    margin: 0 0.5em 0.5em 0;
+  }
+
+  article figure img {
+    width: 80%;
+  }
+
+  article figure figcaption {
+    font-size: 14px;
   }
 
   /* PRICING */
@@ -609,11 +622,24 @@ body {
     text-align: center;
   }
 
-  article img {
+  article figure {
     width: 160px;
-    height: 120px;
     float: left;
     margin: 0 0.5em 0.5em 0;
+  }
+
+  article > img {
+    width: 160px;
+    float: left;
+    margin: 0 0.5em 0.5em 0;
+  }
+
+  article figure img {
+    width: 80%;
+  }
+
+  article figure figcaption {
+    font-size: 14px;
   }
 
   main {
@@ -1049,11 +1075,24 @@ body {
     padding-right: 20px;
   }
 
-  article img {
+  article figure {
     width: 360px;
-    height: 200px;
     margin: auto;
     display: block;
+  }
+
+  article > img {
+    width: 360px;
+    margin: auto;
+    display: block;
+  }
+
+  article figure img {
+    width: 80%;
+  }
+
+  article figure figcaption {
+    font-size: 14px;
   }
 
   aside ul li {
